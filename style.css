@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.header {
+    height: 83vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Assets/Images/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    height: 80vh;
+
+
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 62;
+}
+
+nav img {
+    color: rgb(149, 28, 28);
+    width: 200px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.content {
+    font-family: "Martel Sans", serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+
+
+
+}
+
+.content> :nth-child(1) {
+    font-weight: bolder;
+    font-weight: 900;
+    font-size: 56px;
+    text-align: center;
+}
+
+.content> :nth-child(2) {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.content> :nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.seperation {
+    height: 6px;
+    background-color: rgb(63, 62, 62);
+    position: relative;
+    z-index: 20;
+
+
+}
+
+.btn {
+    padding: 8px 20px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.041);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-red:hover {
+    background-color: rgb(192, 11, 11);
+}
+
+.btn-red {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 3px 24px;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    font-weight: 400;
+
+
+
+}
+
+.btn-red-sm:hover {
+    background-color: rgb(192, 11, 11);
+}
+
+
+.btn-red-sm {
+    transition: all 0.2s ease-out;
+    background-color: red;
+    color: white;
+    border: none;
+
+}
+
+
+.content-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(231, 222, 222, 0.5);
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.secImg {
+    position: relative;
+
+}
+
+.secImg img {
+    width: 40vw;
+
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 20px;
+
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: rgba(65, 65, 65, 1);
+
+}
+
+.faqbox {
+    transition: all 0.2s ease-out;
+    font-size: 24px;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(39, 38, 38);
+    padding: 1.4rem;
+    max-width: 80vw;
+    margin: 8px auto;
+    cursor: pointer;
+
+
+}
+
+
+footer {
+    color: rgb(255, 248, 248);
+    max-width: 90vw;
+    margin: auto;
+    padding: 50px;
+}
+
+footer .questions {
+    padding: 34px 0;
+    color: #a49e9e;
+}
+
+.footer a {
+    font-size: 14px;
+    color: rgb(163, 157, 157);
+
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.box2 {
+    padding-top: 50px;
+
+}
+
+.netflixindia {
+    color: #a49e9e;
+    font-size: 14px;
+    font-weight: 400px;
+    margin-top: 50px;
+
+}
